@@ -193,17 +193,22 @@ li a {
 
 
 .gallery {
+    display: flex;
+    justify-content: center;
     margin: 100px;
-    border: 1px solid #ccc;
-    width: 250px;
+    border: 5px solid #ccc;
+    width: 300px;
 }
 
 .gallery:hover {
     border: 1px solid #777;
     -webkit-transform: scale(1.7);
+    -webkit-transition: transform 1s ease-in-out;
     -ms-transform: scale(1.7);
     transform: scale(1.7);
 }
+
+
 
 .gallery img {
     width: 100%;
