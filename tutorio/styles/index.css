@@ -21,19 +21,27 @@ footer{
 }
 
 .bg h1{
-    top: 50%;
+    top: 35%;
     position: absolute;
-    padding-top: 50px;
+    padding-top: 20px;
     height: 100px;
-    width: 20%;
-    font-size: 2em;
+    width: 40%;
+    font-size: 8em;
     color: white;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.3);
-    font-family: Arial, Helvetica, sans-serif;
-    letter-spacing: 1.6px;
+    font-family: Adamas-Regular;
+    letter-spacing: 15px;
     -webkit-transform: translate(0, -50%);
   transform: translate(0, -50%);
+}
+
+.soll{
+    top: 60%;
+    padding-top: 70px; 
+    color: white;
+    position: absolute;
+    font-size: 0.35em;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
 
@@ -87,9 +95,7 @@ h5 {
     color: black;
     text-align: center;
 }
-h1{
-    
-}
+
 
 
 h2, h5, h4{
@@ -295,7 +301,8 @@ li a {
 
 
 
-
-
-
+@font-face {
+    font-family: 'Adamas-Regular'; /*a name to be used later*/
+    src: url('../fonts/Adamas-Regular.otf'); /*URL to font*/
+}
 
