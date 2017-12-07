@@ -21,11 +21,13 @@ footer{
 }
 
 .bg h1{
+    display: flex;
+    justify-content: center;
     top: 35%;
     position: absolute;
     padding-top: 20px;
     height: 100px;
-    width: 40%;
+    width: 100%;
     font-size: 8em;
     color: white;
     font-family: Adamas-Regular;
@@ -168,7 +170,7 @@ li a {
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(13, 4, 17, 0.9);
 
 
 
@@ -227,11 +229,13 @@ li a {
 .gallery {
     margin: 100px;
     border: 5px solid #ccc;
+    border-color: rgba(13, 4, 17, 0.7);
     width: 300px;
 }
 
 .gallery:hover {
     border: 1px solid #777;
+    border-color: rgba(13, 4, 17, 0.7);
     -webkit-transform: scale(1.7);
     -webkit-transition: transform 1s ease-in-out;
     -ms-transform: scale(1.7);
