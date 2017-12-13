@@ -1,0 +1,30 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+textarea,
+li,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  z-index: 0;
+}
+
+textarea {
+  border-style: none;
+  border-color: Transparent;
+  overflow: auto;
+  outline: none;
+}
+
+ul,
+li {
+  list-style:none;
+}
