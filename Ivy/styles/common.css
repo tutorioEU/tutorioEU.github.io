@@ -93,6 +93,14 @@ header {
   color: #4FD8FF;
 }
 
+.navigation span a {
+  color: #FFFFFF;
+}
+
+.navigation span.important a {
+  color: #4FD8FF;
+}
+
 .socials {
   display: none;
   flex-direction: row;
@@ -104,6 +112,10 @@ header {
   height: 26px;
   margin-right: 50px;
   cursor: pointer;
+}
+
+.social:hover {
+  box-shadow: 0px 0px 25px -1px #aeaeae;
 }
 
 .social img {
@@ -222,7 +234,7 @@ footer {
   .navigation span {
     width: auto;
     margin: 0 30px;
-    font-size: 13px;
+    font-size: 11px;
     background: none;
   }
 

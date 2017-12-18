@@ -196,6 +196,8 @@
   height: 250px;
   display: flex;
   flex-direction: column;
+  box-sizing: border-box;
+  padding-top: 40px;
   background-color: #7982C6;
   background: -webkit-radial-gradient(#B8FFA3, #009396);
 }
