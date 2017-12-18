@@ -265,10 +265,9 @@
 
 #about-us {
   width: 100%;
-  height: 100vh;
   background: -webkit-linear-gradient(#009396, #5994CC);
   box-sizing: border-box;
-  padding: 60px;
+  padding: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -282,7 +281,6 @@
 
 #about-us-container {
   width: 100%;
-  height: 800px;
   display: flex;
   flex-direction: raw;
   flex-wrap: wrap;
@@ -291,10 +289,9 @@
 }
 
 .person-info {
-  width: 400px;
-  height: 280px;
+  width: 100%;
   border-radius: 10px;
-  margin: 0 50px;
+  margin: 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -314,12 +311,15 @@
 }
 
 .person-name {
+  margin-top: 10px;
   font-size: 28px;
   font-family: 'Questrial', sans-serif;
   color: #FFFFFF;
 }
 
 .person-position {
+  margin-top: 10px;
+  text-align: center;
   font-size: 24px;
   font-family: 'Questrial', sans-serif;
   color: #E0E0E0;
@@ -368,6 +368,10 @@
     width: 80%;
     margin: 5px 0 20px;
     padding: 10px;
+  }
+
+  .person-info {
+    width: 38%;
   }
 }
 
@@ -451,6 +455,15 @@
 
   .contact-container p {
     font-size: 20px;
+  }
+
+
+  #about-us-container {
+    height: 800px;
+  }
+
+  .person-info {
+    width: 28%;
   }
 
 }
