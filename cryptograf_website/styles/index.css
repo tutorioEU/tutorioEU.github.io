@@ -99,7 +99,7 @@ header {
   padding-top: 30px;
   min-height: 90px;
   width: 100%;
-  height: 45vh;
+  height: 330px;
 }
 
 #graph {
@@ -205,7 +205,7 @@ span {
 }
 
 #top-text-container p {
-  height: 40vh;
+  height: 290px;
   box-sizing: border-box;
   padding: 20px 10px;
   text-align: center;
@@ -292,7 +292,7 @@ span {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  height: 300vh;
+  height: 2196px;
 
 }
 
@@ -334,7 +334,7 @@ span {
 }
 
 #stores {
-  height: 50vh;
+  height: 366px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -375,7 +375,7 @@ span {
 }
 
 footer {
-  height: 50vh;
+  height: 366px;
   display: flex;
   margin: auto;
   flex-direction: column;
