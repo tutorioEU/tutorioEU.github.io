@@ -10,7 +10,7 @@ $(window).on('scroll', function () {
 
   header.css('opacity', calc);
 
-  if (calc > '1') {
+  if (calc > '0.6') {
     header.css('opacity', 1);
     $('header').css('background-color','transparent');
   } else if ( calc < '0' ) {
