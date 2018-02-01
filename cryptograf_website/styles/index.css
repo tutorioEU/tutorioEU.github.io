@@ -1,0 +1,474 @@
+@font-face {
+  font-family: "CircularStd-Book";
+  src: url("../fonts/CircularStd-Book.otf");
+}
+
+@font-face {
+  font-family: "SF-Pro-Display-Regular";
+  src: url("../fonts/SF-Pro-Display-Regular.otf");
+}
+
+@font-face {
+  font-family: "SF-Pro-Display-Light";
+  src: url("../fonts/SF-Pro-Display-Light.otf");
+}
+
+body {
+  background-color: #373845;
+}
+
+a {
+  cursor: pointer;
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+
+#header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#logo img {
+  width: 244px;
+  height: 43px;
+  opacity: 0.6;
+}
+
+#navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#nav-links {
+  width: 199px;
+  margin-right: 46px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#nav-links a {
+  font-size: 15px;
+  font-family: "CircularStd-Book", sans-serif;
+  color: #FFFFFF;
+  opacity: 0.6;
+}
+
+.socials {
+  width: 114px;
+  margin-right: 47px;
+  height: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.socials img {
+  opacity: 0.6;
+  width: 16px;
+  height: 16px;
+}
+
+#download-button {
+  width: 136px;
+  height: 40px;
+  background-color: #896AEB;
+  border-radius: 8px;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 15px;
+  letter-spacing: 0.39px;
+  font-family: "CircularStd-Book", sans-serif;
+}
+
+/* Zhekos part start */
+
+#top-info-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+#bottom-info-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+#top-row-container {
+  display: flex;
+}
+
+.phone-container img {
+  border-radius: 45px;
+  box-shadow: 0 24px 43px rgba(0,0,0,0.25);
+}
+
+#bottom-row-container {
+  display: flex;
+}
+
+span {
+  color: #896AEB;
+}
+
+#top-text-container {
+  flex-direction: column;
+  color: white;
+}
+
+#top-text-container h1 {
+  letter-spacing: 0.4px;
+  font-size: 46px;
+  font-family: 'SF-Pro-Display-Light', sans-serif;
+}
+
+#top-text-container p {
+  opacity: 0.6;
+  letter-spacing: 0.4px;
+  font-size: 18px;
+  font-family: 'SF-Pro-Display-Regular', sans-serif;
+}
+
+#bottom-text-container {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+#bottom-text-container h1 {
+  letter-spacing: 0.4px;
+  font-size: 46px;
+  font-family: 'SF-Pro-Display-Light', sans-serif;
+}
+
+#bottom-text-container p {
+  opacity: 0.6;
+  letter-spacing: 0.4px;
+  font-size: 18px;
+  font-family: 'SF-Pro-Display-Regular', sans-serif;
+}
+
+/* Zhekos part end */
+
+/* Roman */
+footer {
+  display: flex;
+  margin: auto;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color:  #373845;
+  align-items: center;
+}
+
+#footer-mid-content {
+  width: 114px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#footer-mid-content img {
+  opacity: 0.6;
+  width: 16px;
+  height: 16px;
+}
+
+#footer-left-content {
+  font-size: 15px;
+  font-family: "CircularStd-Book", sans-serif;
+  color: #FFFFFF;
+  opacity: 0.6;
+  width: 199px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#footer-right-content{
+  width: 199px;
+  color: #FFFFFF;
+  opacity: 0.6;
+  font-size: 15px;
+  font-family: "CircularStd-Book", sans-serif;
+}
+
+#stores {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: #896aeb;
+}
+
+#stores-images {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#stores-title {
+  font-family: "SF-Pro-Display-Light";
+  color: #ffffff;
+}
+
+#features{
+  margin: auto;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#features-title {
+  font-family: "Helvetica";
+}
+
+#features-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+#features-left-title,
+#features-mid-title,
+#features-right-title {
+  font-family: "SF-Pro-Display-Light";
+}
+
+#features-left-description,
+#features-mid-description,
+#features-right-description {
+  font-family: "SF-Pro-Display-Regular";
+}
+
+/* End */
+
+@media only screen and (min-width: 414px) and (max-width: 767px) {
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+}
+
+@media only screen and (min-width: 1024px) {
+
+}
+
+@media only screen and (min-width: 1367px) {
+  #header-container {
+    width: 1170px;
+    height: 90px;
+    margin: 0 auto;
+  }
+
+  #graph-container {
+    min-height: 90px;
+    width: 100%;
+    height: 55vh;
+  }
+
+  #graph {
+    width: 1270px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  #graph img {
+    position: absolute;
+    margin: 0 auto;
+    width: 90%;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+
+  #gradient-container {
+    position: absolute;
+    margin: 0 auto;
+    width: 90%;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    background-image: radial-gradient(70% 66% at center, rgba(255,255,255,0), #373845 70%);
+  }
+
+  #graph-logo {
+    position: absolute;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    top: 230px;
+    left: 0;
+    right: 0;
+  }
+
+  #graph-logo img {
+    width: 100%;
+  }
+
+  #graph-header {
+    position: absolute;
+    margin: 0 auto;
+    width: 400px;
+    height: 80px;
+    top: 355px;
+    left: 0;
+    right: 0;
+  }
+
+  #graph-header img {
+    width: 100%;
+  }
+
+  #cont {
+    width: 100%;
+    height: 100vh;
+  }
+
+  /* Zhekos part start */
+
+  #main-container {
+    width: 1170px;
+  }
+
+  #tmp {
+    height: 50vh;
+  }
+
+  #top-info-container {
+    height: 60vh;
+    width: 1037px;
+  }
+
+  #bottom-info-container {
+    height: 637px;
+    width: 1037px;
+    margin: 150px auto;
+  }
+
+  #top-row-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  #bottom-row-container {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .phone-container {
+    height: 637px;
+    width: 309px;
+  }
+
+  .phone-container img {
+    height: 637px;
+    width: 309px;
+  }
+
+  #top-text-container {
+    padding: 25px 70px;
+    height: 50vh;
+    width: 528px;
+  }
+
+  #bottom-text-container {
+    padding-top: 170px;
+    padding-right: 60px;
+    width: 528px;
+  }
+
+  #top-text-container p {
+    padding: 50px 0;
+    padding-right: 150px;
+  }
+
+  #bottom-text-container p {
+    padding: 50px 0;
+    padding-right: 150px;
+  }
+
+  #stores-container {
+    display: flex;
+    align-content: center;
+  }
+
+  #top-text-container img {
+    height: 40px;
+    padding-right: 20px;
+  }
+
+/* Zhekos part end */
+
+/* Roman */
+  footer {
+    width: 1170px;
+    height: 100px;
+  }
+
+  #stores {
+    height: 300px;
+  }
+  #stores-title {
+    font-size: 46px;
+    font-weight: 300;
+    letter-spacing: 0.4px;
+    margin-top: 73px;
+    margin-bottom: 33.5px;
+  }
+  #stores-images{
+      width: 340px;
+  }
+  #features{
+    width: 1170px;
+  }
+  #features-title{
+    font-size: 46px;
+    letter-spacing: 0.4px;
+    color: #ffffff;
+    margin-bottom: 82px;
+  }
+  #features-container {
+    width: 1170px;
+  }
+  #features-left,
+  #features-mid,
+  #features-right {
+    margin-bottom: 171px;
+  }
+  #features-left img,
+  #features-mid img,
+  #features-right img {
+    margin-bottom: 19px;
+    width: 77px;
+    height: 77px;
+  }
+
+  #features-left-title,
+  #features-mid-title,
+  #features-right-title {
+    margin-bottom: 26px;
+    font-size: 32px;
+    color: #ffffff;
+    letter-spacing: 0.4px;
+  }
+
+  #features-left-description,
+  #features-mid-description,
+  #features-right-description {
+    width: 357px;
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    color: rgba(255, 255, 255, 0.6);
+  }
+}
