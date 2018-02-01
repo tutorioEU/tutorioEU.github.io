@@ -99,7 +99,7 @@ header {
   padding-top: 30px;
   min-height: 90px;
   width: 100%;
-  height: 330px;
+  height: 250px;
 }
 
 #graph {
@@ -132,9 +132,9 @@ header {
 #graph-logo {
   position: absolute;
   margin: 0 auto;
-  width: 80px;
-  height: 80px;
-  top: 100px;
+  width: 60px;
+  height: 60px;
+  top: 90px;
   left: 0;
   right: 0;
 }
@@ -148,7 +148,7 @@ header {
   margin: 0 auto;
   width: 260px;
   height: 110px;
-  top: 190px;
+  top: 160px;
   left: 0;
   right: 0;
 }
@@ -176,7 +176,7 @@ header {
 
 .phone-container {
   width: 70%;
-  margin: 15px auto 0;
+  margin: 30px auto 0;
 }
 
 .phone-container img {
@@ -196,18 +196,17 @@ span {
 
 #top-text-container h1 {
   text-align: center;
-  height: 15vh;
+  height: 100px;
   box-sizing: border-box;
-  padding-top: 20px;
   letter-spacing: 0.4px;
   font-size: 40px;
   font-family: 'SF-Pro-Display-Light', sans-serif;
 }
 
 #top-text-container p {
-  height: 290px;
+  height: 150px;
   box-sizing: border-box;
-  padding: 20px 10px;
+  padding: 10px 10px;
   text-align: center;
   opacity: 0.6;
   letter-spacing: 0.4px;
@@ -217,11 +216,11 @@ span {
 
 #stores-container {
   box-sizing: border-box;
-  padding: 10px;
+  padding: 0 10px;
   width: 100%;
   display: flex;
   align-content: center;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-direction: row;
 }
 
@@ -285,14 +284,14 @@ span {
   font-size: 40px;
   letter-spacing: 0.4px;
   color: #ffffff;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 
 #features-container{
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  height: 2196px;
+  height: 1300px;
 
 }
 
@@ -334,7 +333,7 @@ span {
 }
 
 #stores {
-  height: 366px;
+  height: 320px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -350,7 +349,7 @@ span {
   margin: 0 auto;
   display: flex;
   align-content: center;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-direction: row;
 }
 
@@ -375,7 +374,7 @@ span {
 }
 
 footer {
-  height: 366px;
+  height: 320px;
   display: flex;
   margin: auto;
   flex-direction: column;
@@ -386,6 +385,9 @@ footer {
   padding-top: 70px;
 }
 
+#about{
+  width: 83.42px;
+}
 #footer-mid-content {
   margin: 10px 0;
   width: 100%;
