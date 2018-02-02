@@ -126,6 +126,7 @@ header {
   left: 0;
   right: 0;
   height: 100%;
+  background-image: -webkit-radial-gradient(70% 66% at center, rgba(255,255,255,0), #373845 70%);
   background-image: radial-gradient(70% 66% at center, rgba(255,255,255,0), #373845 70%);
 }
 
@@ -593,62 +594,58 @@ footer {
     width: 280px;
   }
 
-/* Zhekos part end */
-
-/* Roman */
-
 /*#features{
   width: 1170px;
 }*/
 
-#features-title{
-  font-size: 46px;
-  margin-bottom: 100px;
-}
-
-/* #features-container {
-  width: 1170px;
-} */
-
-#features-right {
-  margin-bottom: 100px;
-}
-
-#features-left img,
-#features-mid img,
-#features-right img {
-  margin-bottom: 19px;
-  width: 77px;
-  height: 77px;
-}
-
-#features-left-title,
-#features-mid-title,
-#features-right-title {
-  margin-bottom: 26px;
-  font-size: 32px;
-}
-
-#features-left-description,
-#features-mid-description,
-#features-right-description {
-  width: 357px;
-  font-size: 16px;
-}
-
-  footer {
-    height: 350px;
-  }
-
-  #stores {
-    height: 300px;
-  }
-  #stores-title {
+  #features-title{
     font-size: 46px;
+    margin-bottom: 100px;
   }
-  #stores-images{
-      width: 340px;
+
+  /* #features-container {
+    width: 1170px;
+  } */
+
+  #features-right {
+    margin-bottom: 100px;
   }
+
+  #features-left img,
+  #features-mid img,
+  #features-right img {
+    margin-bottom: 19px;
+    width: 77px;
+    height: 77px;
+  }
+
+  #features-left-title,
+  #features-mid-title,
+  #features-right-title {
+    margin-bottom: 26px;
+    font-size: 32px;
+  }
+
+  #features-left-description,
+  #features-mid-description,
+  #features-right-description {
+    width: 357px;
+    font-size: 16px;
+  }
+
+    footer {
+      height: 350px;
+    }
+
+    #stores {
+      height: 300px;
+    }
+    #stores-title {
+      font-size: 46px;
+    }
+    #stores-images{
+        width: 340px;
+    }
 
 
 }
@@ -957,10 +954,6 @@ footer {
     width: 1170px;
   }
 
-  #tmp {
-    height: 50vh;
-  }
-
   #top-info-container {
     height: 60vh;
     width: 1037px;
@@ -980,6 +973,7 @@ footer {
   #bottom-row-container {
     flex-direction: row;
     justify-content: space-around;
+    margin: 0;
   }
 
   .phone-container {
@@ -999,19 +993,45 @@ footer {
   }
 
   #bottom-text-container {
-    padding-top: 170px;
+    padding-top: 210px;
     padding-right: 60px;
     width: 528px;
+  }
+
+  #bottom-text-container h1 {
+    margin: 0;
+    text-align: left;
   }
 
   #top-text-container p {
     padding: 50px 0;
     padding-right: 150px;
+    text-align: left;
+    height: auto;
+  }
+
+  #top-text-container h1 {
+    height: auto;
+    text-align: left;
   }
 
   #bottom-text-container p {
     padding: 50px 0;
-    padding-right: 150px;
+    text-align: left;
+    /* padding-right: 150px;  */
+  }
+
+  #phone-bottom {
+    margin: 0;
+  }
+
+  #stores-container {
+    padding: 0;
+    justify-content: flex-start;
+  }
+
+  #stores-container img {
+    padding-right: 10px;
   }
 
 /* Zhekos part end */
@@ -1028,6 +1048,7 @@ footer {
 
 #features-container {
   width: 1170px;
+  flex-direction: row;
 }
 #features-left,
 #features-mid,
