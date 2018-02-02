@@ -144,8 +144,8 @@ header {
   left: 0;
   right: 0;
   height: 100%;
-  background-image: -webkit-radial-gradient(70% 66% at center, rgba(255,255,255,0), #373845 70%);
-  background-image: radial-gradient(70% 66% at center, rgba(255,255,255,0), #373845 70%);
+  background-image: -webkit-radial-gradient(70% 66% at center, rgba(55,56,69,0), #373845 70%);
+  background-image: radial-gradient(70% 66% at center, rgba(55,56,69,0), #373845 70%);
 }
 
 #graph-logo {
