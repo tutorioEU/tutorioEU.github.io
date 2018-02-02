@@ -26,58 +26,76 @@ header {
   position: fixed;
   z-index: 100;
 }
-
 #header-container {
   width: 100%;
   height: 60px;
-}
-
-#header-container {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  background-color: rgba(55,56,69,0);
+}
+
+#logo {
+  margin-left: 10px;
+  opacity: 0;
 }
 
 #logo img {
-  display: none;
-  width: 122px;
   height: 33px;
-  opacity: 0.6;
+}
+
+
+
+.closed-img {
+  width: 30px;
+  height: 30px;
+  margin: 15px;
+  background-image: url("../images/menu-button.png");
+  background-size: cover;
+}
+
+.open {
+  background-image: url("../images/close.png");
 }
 
 #navigation {
+  width: 100%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  background-color: #373845;
+  height: 200px;
   display: none;
 }
 
 #nav-links {
-  width: 199px;
-  margin-right: 46px;
+  width: 100%;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 #nav-links a {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 15px;
   font-size: 15px;
   font-family: "CircularStd-Book", sans-serif;
   color: #FFFFFF;
-  opacity: 0.6;
 }
 
 .socials {
-  width: 114px;
-  margin-right: 47px;
+  width: 200px;
   height: 16px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  padding-bottom: 15px;
 }
 
 .socials img {
-  opacity: 0.6;
   width: 16px;
   height: 16px;
 }
@@ -433,7 +451,7 @@ footer {
 
 @media only screen and (min-width: 600px) and (max-width: 767px) {
   #header-container {
-    height: 90px;
+    height: 60px;
     margin: 0 auto;
   }
 
@@ -877,6 +895,46 @@ footer {
     height: 90px;
     margin: 0 auto;
   }
+
+#logo {
+  margin: 0;
+  opacity: 0.6;
+}
+
+#logo img {
+  height: 43px;
+}
+
+#nav-switcher {
+  display: none;
+}
+
+#navigation {
+  display: flex;
+  width: 500px;
+  flex-direction: row;
+  height: inherit;
+}
+
+#nav-links {
+  width: 199px;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0;
+  opacity: 0.6;
+}
+
+#nav-links a {
+  padding-bottom: 0;
+}
+
+.socials {
+  width: 114px;
+  height: 16px;
+  justify-content: space-between;
+  padding-bottom: 0;
+  opacity: 0.6;
+}
 
   #graph-container {
     min-height: 90px;
