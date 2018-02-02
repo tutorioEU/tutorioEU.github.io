@@ -431,7 +431,7 @@ footer {
 
 /* End */
 
-@media only screen and (min-width: 414px) and (max-width: 767px) {
+@media only screen and (min-width: 600px) and (max-width: 767px) {
   #header-container {
     height: 90px;
     margin: 0 auto;
@@ -650,7 +650,7 @@ footer {
 
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
 
   #header-container {
     height: 90px;
@@ -871,11 +871,275 @@ footer {
 
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1025px) {
+  #header-container {
+    width: 832px;
+    height: 90px;
+    margin: 0 auto;
+  }
+
+  #graph-container {
+    min-height: 90px;
+    width: 100%;
+    height: 40vh;
+  }
+
+  #graph {
+    width: 832px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  #graph img {
+    position: absolute;
+    margin: 0 auto;
+    width: 90%;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+
+  #gradient-container {
+    position: absolute;
+    margin: 0 auto;
+    width: 90%;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    background-image: radial-gradient(70% 66% at center, rgba(255,255,255,0), #373845 70%);
+  }
+
+  #graph-logo {
+    position: absolute;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    top: 230px;
+    left: 0;
+    right: 0;
+  }
+
+  #graph-logo img {
+    width: 100%;
+  }
+
+  #graph-header {
+    position: absolute;
+    margin: 0 auto;
+    width: 400px;
+    height: 80px;
+    top: 355px;
+    left: 0;
+    right: 0;
+  }
+
+  #graph-header img {
+    width: 100%;
+  }
+
+  #cont {
+    width: 100%;
+    height: 100vh;
+  }
+
+  /* Zhekos part start */
+
+  #main-container {
+    width: 832px;
+  }
+
+  #top-info-container {
+    height: 50vh;
+    width: 832px;
+  }
+
+  #bottom-info-container {
+    height: 40vh;
+    width: 832px;
+  }
+
+  #top-row-container {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 832px;
+    margin: 0;
+  }
+
+  #bottom-row-container {
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    width: 100%;
+  }
+
+  .phone-container {
+    height: 510px;
+    width: 248px;
+    margin: 0;
+    margin-left: 70px;
+  }
+
+  .phone-container img {
+    height: 510px;
+    width: 248px;
+    border-radius: 36px;
+  }
+
+  #top-text-container {
+    box-sizing: border-box;
+    padding-top: 17px;
+    height: 50vh;
+    width: 470px;
+  }
+
+  #bottom-text-container {
+    margin-left: 54px;
+    padding-top: 140px;
+    width: 423px;
+  }
+
+  #bottom-text-container h1 {
+    margin: 0;
+    text-align: left;
+  }
+
+  #top-text-container p {
+    padding: 40px 0;
+    padding-right: 140px;
+    text-align: left;
+    height: auto;
+  }
+
+  #top-text-container h1 {
+    height: auto;
+    text-align: left;
+  }
+
+  #bottom-text-container p {
+    padding: 40px 0;
+    text-align: left;
+    /* padding-right: 150px;  */
+  }
+
+  #phone-bottomn {
+    margin: 0;
+    margin-right: 54px;
+  }
+
+  #stores-container {
+    padding: 0;
+    justify-content: flex-start;
+  }
+
+  #stores-container img {
+    padding-right: 8px;
+  }
+
+/* Zhekos part end */
+
+/* Roman */
+
+#features{
+  width: 832px;
+}
+#features-title{
+  font-size: 37px;
+  margin-bottom: 66px;
+}
+
+#features-container {
+  width: 832px;
+  flex-direction: row;
+  height: auto;
+  justify-content: space-between;
+}
+#features-left,
+#features-mid,
+#features-right {
+  margin-bottom: 137px;
+  align-items: left;
+  width: 250px;
+}
+
+#features-left img,
+#features-mid img,
+#features-right img {
+  margin-bottom: 15px;
+  width: 62px;
+  height: 62px;
+}
+
+#features-left-title,
+#features-mid-title,
+#features-right-title {
+  margin-bottom: 21px;
+  font-size: 21px;
+  width: 250px;
+  text-align: left;
+}
+
+#features-left-description,
+#features-mid-description,
+#features-right-description {
+  width: 240px;
+  font-size: 13px;
+  text-align: left;
+  padding: 0;
+}
+
+  footer {
+    width: 832px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 0;
+  }
+
+  #footer-left-content,
+  #footer-mid-content, 
+  #footer-right-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 12px;
+    width: 159px;
+  }
+
+ #footer-mid-content{
+  width: 89px;
+ }
+
+ #footer-right-content{
+  border-top: 0;
+ }
+
+  #footer-mid-content a img {
+    height: 13px;
+    width: 13px;
+  }
+
+  #about{
+    width: auto;
+  }
+
+  #stores {
+    height: 240px;
+  }
+  #stores-title {
+    font-size: 37px;
+  }
+  #stores-images{
+      width: 272px;
+  }
 
 }
 
-@media only screen and (min-width: 1367px) {
+@media only screen and (min-width: 1365px) {
   #header-container {
     width: 1170px;
     height: 90px;
@@ -955,47 +1219,69 @@ footer {
   }
 
   #top-info-container {
-    height: 60vh;
-    width: 1037px;
+    height: 100vh;
+    width: 1170px;
   }
 
   #bottom-info-container {
-    height: 637px;
-    width: 1037px;
-    margin: 150px auto;
+    height: 80vh;
+    width: 1170px;
   }
 
   #top-row-container {
     flex-direction: row;
     justify-content: space-between;
+    width: 1170px;
+    margin: 0;
   }
 
   #bottom-row-container {
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: 0;
+    width: 100%;
   }
 
   .phone-container {
     height: 637px;
     width: 309px;
+    margin: 0;
+    margin-left: 108px;
   }
 
   .phone-container img {
     height: 637px;
     width: 309px;
+    border-radius: 45px;
   }
 
   #top-text-container {
-    padding: 25px 70px;
+    box-sizing: border-box;
+    padding-top: 17px;
     height: 50vh;
-    width: 528px;
+    width: 674px;
   }
 
   #bottom-text-container {
-    padding-top: 210px;
-    padding-right: 60px;
+    margin-left: 67px;
+    padding-top: 175px;
     width: 528px;
+  }
+
+  h1 {
+
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.4px;
+  }
+
+  p{
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.67;
+    letter-spacing: 0.4px;
   }
 
   #bottom-text-container h1 {
@@ -1005,7 +1291,7 @@ footer {
 
   #top-text-container p {
     padding: 50px 0;
-    padding-right: 150px;
+    padding-right: 174px;
     text-align: left;
     height: auto;
   }
@@ -1021,8 +1307,9 @@ footer {
     /* padding-right: 150px;  */
   }
 
-  #phone-bottom {
+  #phone-bottomn {
     margin: 0;
+    margin-right: 67px;
   }
 
   #stores-container {
@@ -1049,11 +1336,15 @@ footer {
 #features-container {
   width: 1170px;
   flex-direction: row;
+  height: auto;
+  justify-content: space-between;
 }
 #features-left,
 #features-mid,
 #features-right {
   margin-bottom: 171px;
+  align-items: left;
+  min-width: 357px;
 }
 
 #features-left img,
@@ -1068,19 +1359,64 @@ footer {
 #features-mid-title,
 #features-right-title {
   margin-bottom: 26px;
-  font-size: 32px;
+  font-size: 30px;
+  min-width: 357px;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.4px;
 }
 
 #features-left-description,
 #features-mid-description,
 #features-right-description {
-  width: 357px;
+  min-width: 357px;
   font-size: 16px;
+  text-align: left;
+  padding: 0;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.88;
+  letter-spacing: 0.4px;
 }
 
   footer {
     width: 1170px;
     height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 0;
+  }
+
+  #footer-left-content,
+  #footer-mid-content, 
+  #footer-right-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 15px;
+    width: 199px;
+  }
+
+ #footer-mid-content{
+  width: 111px;
+ }
+
+ #footer-right-content{
+  border-top: 0;
+ }
+
+  #footer-mid-content a img {
+    height: 16px;
+    width: 16px;
+  }
+
+  #about{
+    width: auto;
   }
 
   #stores {
@@ -1088,8 +1424,6 @@ footer {
   }
   #stores-title {
     font-size: 46px;
-    margin-top: 73px;
-    margin-bottom: 33.5px;
   }
   #stores-images{
       width: 340px;
