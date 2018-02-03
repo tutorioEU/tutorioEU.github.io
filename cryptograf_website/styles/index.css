@@ -1183,6 +1183,10 @@ footer {
     width: auto;
   }
 
+  #contact{
+    width: auto;
+  }
+
   #stores {
     height: 240px;
   }
@@ -1471,6 +1475,10 @@ footer {
   }
 
   #about{
+    width: auto;
+  }
+
+  #contact{
     width: auto;
   }
 
