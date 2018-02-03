@@ -203,6 +203,8 @@ header {
   box-shadow: 0 24px 43px rgba(0,0,0,0.25);
 }
 
+
+
 span {
   color: #896AEB;
 }
@@ -556,15 +558,26 @@ footer {
   }
 
   .phone-container {
+    position: relative;
     margin-top: 0;
     height: 637px;
     width: 309px;
   }
 
   .phone-container img {
+    position: absolute;
     margin-left: 50px;
     height: 438px;
     width: 212px;
+  }
+
+  #img_hover {
+    position: absolute;
+    margin-left: 50px;
+    border-radius: 30px;
+    height: 438px;
+    width: 212px;
+    box-shadow: inset 0px 0px 35px -12px rgba(255,255,255,1);
   }
 
   #phone-bottomn{
@@ -765,15 +778,26 @@ footer {
   }
 
   .phone-container {
+    position: relative; 
     margin-top: 0;
     height: 637px;
     width: 309px;
   }
 
   .phone-container img {
+    position: absolute;
     margin-left: 50px;
     height: 438px;
     width: 212px;
+  }
+
+  #img_hover {
+    position: absolute;
+    margin-left: 50px;
+    border-radius: 30px;
+    height: 438px;
+    width: 212px;
+    box-shadow: inset 0px 0px 35px -12px rgba(255,255,255,1);
   }
 
   #phone-bottomn{
@@ -786,7 +810,7 @@ footer {
     padding-left: 50px;
     padding-top: 10px;
     height: 50vh;
-
+    width: 550px;
   }
 
   #top-text-container h1 {
@@ -1028,6 +1052,7 @@ footer {
   }
 
   .phone-container {
+    position: relative;
     height: 510px;
     width: 248px;
     margin: 0;
@@ -1035,11 +1060,19 @@ footer {
   }
 
   .phone-container img {
+    position: absolute;
     height: 510px;
     width: 248px;
     border-radius: 36px;
   }
 
+  #img_hover {
+    position: absolute;
+    height: 510px;
+    width: 248px;
+    border-radius: 36px;
+    box-shadow: inset 0px 0px 35px -12px rgba(255,255,255,1);
+  }
   #top-text-container {
     box-sizing: border-box;
     padding-top: 17px;
@@ -1299,6 +1332,7 @@ footer {
   }
 
   .phone-container {
+    position: relative;
     height: 637px;
     width: 309px;
     margin: 0;
@@ -1306,11 +1340,19 @@ footer {
   }
 
   .phone-container img {
+    position: absolute;
     height: 637px;
     width: 309px;
     border-radius: 45px;
   }
 
+  #img_hover {
+    position: absolute;
+    height: 637px;
+    width: 309px;
+    border-radius: 45px;
+    box-shadow: inset 0px 0px 35px -12px rgba(255,255,255,1);
+  }
   #top-text-container {
     box-sizing: border-box;
     padding-top: 17px;
