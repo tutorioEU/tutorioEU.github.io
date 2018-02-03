@@ -15,27 +15,27 @@ $(window).on('scroll', function () {
       height = header.outerHeight(),
       offset = height / 2,
       calc = 1 - (scrollTop - offset + range) / range;
-
-  header.css('opacity', calc);
-  if (fading) {
-    logo.css('opacity', 1 - calc);
-  }
-
-  if (calc > '0.6') {
-    header.css('opacity', 1);
+  if ($('#navigation').css('display') == 'none') {
+    header.css('opacity', calc);
     if (fading) {
-      logo.css('opacity', 0);
+      logo.css('opacity', 1 - calc);
     }
-    $('header').css('background-color','transparent');
 
-  } else if ( calc < '0' ) {
-    header.css('opacity', 0);
-    if (fading) {
-      logo.css('opacity', 1);
+    if (calc > '0.6') {
+      header.css('opacity', 1);
+      if (fading) {
+        logo.css('opacity', 0);
+      }
+      $('header').css('background-color','transparent');
+
+    } else if ( calc < '0' ) {
+      header.css('opacity', 0);
+      if (fading) {
+        logo.css('opacity', 1);
+      }
+      $('header').css('background-color','rgba(55,56,69,0.8)');
     }
-    $('header').css('background-color','rgba(55,56,69,0.8)');
   }
-
 });
 
 function toggleNavigation() {
