@@ -404,8 +404,14 @@ footer {
 }
 
 #about{
-  width: 83.42px;
+  width: 85px;
 }
+
+#contact{
+  width: 85px;
+  text-align: right;
+}
+
 #footer-mid-content {
   margin: 10px 0;
   width: 100%;
