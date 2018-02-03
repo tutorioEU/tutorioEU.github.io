@@ -144,7 +144,6 @@ header {
   left: 0;
   right: 0;
   height: 100%;
-  background-image: -webkit-radial-gradient(70% 66% at center, rgba(55,56,69,0), #373845 70%);
   background-image: radial-gradient(70% 66% at center, rgba(55,56,69,0), #373845 70%);
 }
 
@@ -153,7 +152,7 @@ header {
   margin: 0 auto;
   width: 60px;
   height: 60px;
-  top: 90px;
+  top: 60px;
   left: 0;
   right: 0;
 }
@@ -167,7 +166,7 @@ header {
   margin: 0 auto;
   width: 260px;
   height: 110px;
-  top: 160px;
+  top: 130px;
   left: 0;
   right: 0;
 }
@@ -449,7 +448,7 @@ footer {
 
 /* End */
 
-@media only screen and (min-width: 600px) and (max-width: 767px) {
+@media only screen and (min-width: 645px) and (max-width: 767px) {
   #header-container {
     height: 60px;
     margin: 0 auto;
@@ -458,7 +457,6 @@ footer {
   #graph-container {
     min-height: 90px;
     width: 100%;
-    height: 55vh;
   }
 
   #graph {
@@ -485,15 +483,15 @@ footer {
     left: 0;
     right: 0;
     height: 100%;
-    background-image: radial-gradient(70% 66% at center, rgba(255,255,255,0), #373845 70%);
+    background-image: radial-gradient(70% 66% at center, rgba(55,56,69,0), #373845 70%);
   }
 
   #graph-logo {
     position: absolute;
     margin: 0 auto;
-    width: 100px;
-    height: 100px;
-    top: 100px;
+    width: 50px;
+    height: 50px;
+    top: 80px;
     left: 0;
     right: 0;
   }
@@ -505,9 +503,9 @@ footer {
   #graph-header {
     position: absolute;
     margin: 0 auto;
-    width: 400px;
-    height: 80px;
-    top: 100px;
+    width: 200px;
+    height: 40px;
+    top: 140px;
     left: 0;
     right: 0;
   }
@@ -525,10 +523,6 @@ footer {
 
   #main-container {
     width: 1170px;
-  }
-
-  #tmp {
-    height: 50vh;
   }
 
   #top-info-container {
@@ -678,14 +672,13 @@ footer {
   #graph-container {
     min-height: 90px;
     width: 100%;
-    height: 55vh;
+    height: 500px;
   }
 
   #graph {
-    height: 100%;
     margin: 0 auto;
     position: relative;
-    width: 100%;
+    width: 600px;
   }
 
   #graph img {
@@ -705,7 +698,7 @@ footer {
     left: 0;
     right: 0;
     height: 100%;
-    background-image: radial-gradient(70% 66% at center, rgba(255,255,255,0), #373845 70%);
+    background-image: radial-gradient(70% 66% at center, rgba(55,56,69,0), #373845 70%);
   }
 
   #graph-logo {
@@ -713,7 +706,7 @@ footer {
     margin: 0 auto;
     width: 100px;
     height: 100px;
-    top: 220px;
+    top: 120px;
     left: 0;
     right: 0;
   }
@@ -727,7 +720,7 @@ footer {
     margin: 0 auto;
     width: 400px;
     height: 80px;
-    top: 355px;
+    top: 235px;
     left: 0;
     right: 0;
   }
@@ -736,28 +729,19 @@ footer {
     width: 100%;
   }
 
-  #cont {
-    width: 100%;
-    height: 100vh;
-  }
-
   /* Zhekos part start */
 
   #main-container {
     width: 1170px;
   }
 
-  #tmp {
-    height: 50vh;
-  }
-
   #top-info-container {
-    height: 60vh;
+    height: 438px;
   }
 
   #bottom-info-container {
-    height: 450px;
-    margin: auto;
+    height: 438px;
+    margin-top: 150px;
   }
 
   #top-row-container {
@@ -914,6 +898,7 @@ footer {
   width: 500px;
   flex-direction: row;
   height: inherit;
+  background-color: transparent;
 }
 
 #nav-links {
@@ -939,7 +924,7 @@ footer {
   #graph-container {
     min-height: 90px;
     width: 100%;
-    height: 40vh;
+    height: 400px;
   }
 
   #graph {
@@ -966,7 +951,7 @@ footer {
     left: 0;
     right: 0;
     height: 100%;
-    background-image: radial-gradient(70% 66% at center, rgba(255,255,255,0), #373845 70%);
+    background-image: radial-gradient(70% 66% at center, rgba(55,56,69,0), #373845 70%);
   }
 
   #graph-logo {
@@ -974,7 +959,7 @@ footer {
     margin: 0 auto;
     width: 100px;
     height: 100px;
-    top: 230px;
+    top: 150px;
     left: 0;
     right: 0;
   }
@@ -988,7 +973,7 @@ footer {
     margin: 0 auto;
     width: 400px;
     height: 80px;
-    top: 355px;
+    top: 255px;
     left: 0;
     right: 0;
   }
@@ -1009,13 +994,14 @@ footer {
   }
 
   #top-info-container {
-    height: 50vh;
+    height: 510px;
     width: 832px;
   }
 
   #bottom-info-container {
-    height: 40vh;
+    height: 510px;
     width: 832px;
+    margin-top: 212px;
   }
 
   #top-row-container {
@@ -1101,6 +1087,9 @@ footer {
 
 #features{
   width: 832px;
+  height: 440px;
+  margin-top: 192px;
+  padding: 0;
 }
 #features-title{
   font-size: 37px;
@@ -1159,7 +1148,7 @@ footer {
   }
 
   #footer-left-content,
-  #footer-mid-content, 
+  #footer-mid-content,
   #footer-right-content {
     display: flex;
     flex-direction: row;
@@ -1207,7 +1196,7 @@ footer {
   #graph-container {
     min-height: 90px;
     width: 100%;
-    height: 55vh;
+    height: 550px;
   }
 
   #graph {
@@ -1234,7 +1223,7 @@ footer {
     left: 0;
     right: 0;
     height: 100%;
-    background-image: radial-gradient(70% 66% at center, rgba(255,255,255,0), #373845 70%);
+    background-image: radial-gradient(70% 66% at center, rgba(55,56,69,0), #373845 70%);
   }
 
   #graph-logo {
@@ -1265,11 +1254,6 @@ footer {
     width: 100%;
   }
 
-  #cont {
-    width: 100%;
-    height: 100vh;
-  }
-
   /* Zhekos part start */
 
   #main-container {
@@ -1277,13 +1261,14 @@ footer {
   }
 
   #top-info-container {
-    height: 100vh;
+    height: 650px;
     width: 1170px;
   }
 
   #bottom-info-container {
-    height: 80vh;
+    height: 650px;
     width: 1170px;
+    margin-top: 280px;
   }
 
   #top-row-container {
@@ -1385,6 +1370,9 @@ footer {
 
 #features{
   width: 1170px;
+  height: 600px;
+  padding: 0;
+  margin-top: 220px;
 }
 #features-title{
   font-size: 46px;
@@ -1451,7 +1439,7 @@ footer {
   }
 
   #footer-left-content,
-  #footer-mid-content, 
+  #footer-mid-content,
   #footer-right-content {
     display: flex;
     flex-direction: row;
